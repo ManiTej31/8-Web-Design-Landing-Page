@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding-left: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+    margin-right: 50px;
+    color: #3E4794;
+}
+
+nav>img{
+    width: 100px;
+}
+           
+.signin-btn{
+    background-image: linear-gradient(to right, #16BFFD 0%, #CB3066  51%, #16BFFD  100%);
+    margin: 10px;
+    margin-right: 60px;
+    padding: 10px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border: none;
+    border-radius: 30px;
+}
+
+.signin-btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.intro-section{
+    display: flex;
+}
+.imgs-div{
+    background-image: url(/Assignment-8/images/backcover.svg);
+    margin-top: -80px;
+    padding-top: 80px;
+} 
+
+.vector-img{
+    position: absolute;
+    margin-top: 470px;
+}
+
+.vector-dot{
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 55px;
+}
+
+h1{
+    color: #3E4794;
+    font-family: 'Roboto';
+    font-size: 60px;
+    
+}
+
+h4{
+    color: #6d7195;
+    font-family: 'Roboto';
+    line-height: 1.5;
+    padding-right: 150px;
+}
+
+.left-section{
+    margin-top: 100px;
+}
+
+.learn-more-btn{
+    background-image: linear-gradient(to right, #16BFFD 0%, #CB3066  51%, #16BFFD  100%);
+    margin:  40px 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 40px;
+    display: block;
+    border: none;
+}
