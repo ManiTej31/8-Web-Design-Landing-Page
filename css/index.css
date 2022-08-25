@@ -52,7 +52,7 @@ nav>img{
     display: flex;
 }
 .imgs-div{
-    background-image: url(/Assignment-8/images/backcover.svg);
+    /* background-image: url(./images/backcover.svg); */
     margin-top: -80px;
     padding-top: 80px;
 } 
