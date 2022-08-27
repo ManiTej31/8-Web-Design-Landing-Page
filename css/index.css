@@ -52,7 +52,7 @@ nav>img{
     display: flex;
 }
 .imgs-div{
-    background-image: url(/images/backcover.svg);
+    background-image: url(/Assignment-8/images/backcover.svg);
     margin-top: -80px;
     padding-top: 80px;
 } 
@@ -119,12 +119,43 @@ h4{
 
     .bars{
         display:inline;
+        margin-right: 20px;
     }
 
     .ham{
         width:30px;
         margin-top: 30px;
     }
+
+    .intro-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .imgs-div :nth-child(3){
+        width: 300px;
+        margin-top:50px;
+    }
+
+    .vector-img{
+        margin-top: 350px;
+    }
+
+    .vector-dot{
+        margin-top:300px
+    }
+
+    .left-section{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        align-items: center;
+        
+    }
+
+    h4{
+        padding-right: 0;
+        margin:0 20px;
+    }
 }
 
-/* style="background-image:url(./images/backcover.svg);" */
