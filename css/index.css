@@ -52,7 +52,7 @@ nav>img{
     display: flex;
 }
 .imgs-div{
-    /* background-image: url(./images/backcover.svg); */
+    background-image: url(/images/backcover.svg);
     margin-top: -80px;
     padding-top: 80px;
 } 
@@ -100,3 +100,31 @@ h4{
     display: block;
     border: none;
 }
+
+.bars{
+    display:none;
+}
+
+
+/* rèsponsive */
+@media screen and (max-width: 715px){
+    .signin-btn,
+    .nav-items{
+        display:none
+    }
+
+    nav>img{
+        margin-top:30px;
+    }
+
+    .bars{
+        display:inline;
+    }
+
+    .ham{
+        width:30px;
+        margin-top: 30px;
+    }
+}
+
+/* style="background-image:url(./images/backcover.svg);" */
